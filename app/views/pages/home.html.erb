@@ -1,0 +1,78 @@
+<%# BANNER SECTION  %>
+
+<div class="navbar d-flex justify-content-end">
+  <%= render 'shared/navbar' %>
+</div>
+
+<div class="section-one cover position-relative">
+
+  <div class="banner-languages">
+    <% @languages.each do |language, sym| %>
+      <%= link_to root_path(locale: sym), class: "without-decoration" do %>
+        <div class="icon-flag">
+          <%= image_tag "#{language}.png", alt:"language flag" %>
+        </div>
+      <% end %>
+    <% end%>
+  </div>
+
+  <div id="particles-js" class="banner"></div>
+    
+  <div class="container-profile banner-presentation">
+    <p> 
+      <%= t('.presentation') %>
+    </p> 
+  </div>
+  <div class="container-profile d-flex banner-name">
+    <h1>Will The<span style="color:#61b15a">ard</span></h1>
+  </div>
+  <div class="container-profile banner-about-me">
+    <p>
+      <%= t('.about-me') %>
+    </p>
+  </div>
+  <div class="banner-job">
+    <h2>
+      <%= t('.banner-job') %>
+    </h2>
+  </div>
+  <div class="banner-location">
+    <p>
+      <%= t('.location') %>
+    </p> 
+  </div>
+</div>
+
+<%# ABOUT SECTION  %>
+  
+<div class="section-two about position-relative">
+  <%= render 'shared/sobre'%>
+</div>
+
+<%# profissional experience %>
+<%# <div class="experience">
+  <%= render 'shared/experiences'%>
+<%# </div> %>
+
+<%# SECTION SKILLS %>
+
+<div class="section-three section-skills position-relative">
+  <%= render 'shared/skill'%>
+</div>
+
+<%# SECTION ENTERTAIN  %>
+<div class="section-five entertainment">
+  <%= render 'shared/entertain'%>
+</div>
+
+<%# SECTION SIX FOOTER  %>
+<div class="section-six footer">
+  <%= render 'shared/footer' %>
+</div>
+
+
+
+
+
+
+

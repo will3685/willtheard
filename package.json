@@ -1,0 +1,24 @@
+{
+  "name": "will_cv",
+  "private": true,
+  "dependencies": {
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "5.2.1",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "particles.js": "^2.0.0",
+    "popper.js": "^1.16.1",
+    "turbolinks": "^5.2.0",
+    "webpack": "^4.0.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "@types/aos": "^3.0.3",
+    "@types/rails__activestorage": "^6.0.0",
+    "@types/turbolinks": "^5.2.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

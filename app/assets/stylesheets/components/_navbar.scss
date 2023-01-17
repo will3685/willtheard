@@ -1,0 +1,13 @@
+@media (max-width: 575px) {
+  .navbar {
+    display: none !important;
+  }
+}
+.navbar {
+  position: fixed;
+  flex-direction: column;
+  width: 70px;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 3;
+}

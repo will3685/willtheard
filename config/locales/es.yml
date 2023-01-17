@@ -1,0 +1,32 @@
+es:
+  pages:
+    home:
+      banner-job: "Desarrollador de Software"
+      presentation: "Hola, yo soy"
+      about-me: "Ingeniería civil por pasión y codificación por placer"
+      location: "Actualmente en Nueva York"
+      about: "Sobre mí"
+      about-html: "Soy ingeniero civil por la Universidad Federal de Rio de Janeiro. Ao largo de los años de vida académica, he tenido la oportunidad de submergirme en una piscina llena de código. Como profesional, decide, además de constuir nuestro entorno, ayudar a disenãdores, pequeñas agencias y empresas a llevar sus ideas ala realidad. He trabajado en alguns proyectos personales para seguir mejorando mis habilidades, aprendiendo nuevos lenguajes de programación y familiarizándome con nuevos frameworks. Siempre estoy abierto a nuevos retos. Mi segundo bien más preciado en la vida, Invierto el tiempo."
+      work-first: "Actualmente trabajo en el"
+      work-second: "como desarrollador web."
+      skills: "Competencias y Herramientas"
+      skill-good: "Avanzado"
+      skill-medium: "Intermedio"
+      skill-basic: "Principiante"
+      project: "Proyectos en los que he estado trabajando"
+      project-title: "One Click"
+      project-text: "Una sencilla aplicación Ruby on Rails para gestionar la agenda..."
+      entertain: "En una vida normal"
+      entertain-text: "Además de codificar, tengo algunas cosas que me entretienen. Me apasiona la música." 
+      entertain-text-2: "Puedo escuchar música todo el día. Puedo decir que la música me lleva aquí, con diferencia, lo principal."
+      entertain-text-3: "Comparto con vosotros mis discos favoritos, los que se comprueban, puedo cantarlos al revés."
+      entertain-joke: "¿Puede reconocer los suyos? ¿Puedes reconocerlos sin cliquear?"
+      entertain-social: "Sígame en"
+      entertain-social-2: "Tengo algunas listas de reproducción locas que pueden entretenerte."
+
+      footer-mention-1: "Este sitio web definitivamente no representa la habilidad de Will Theard, este es su sitio web personal, construido como una sesión de terapia"
+      footer-mention-3: "Si te preguntas en qué he trabajado como ingeniero civil, echa un vistazo a nuestro innovador proyecto"
+      footer-mention-2: "Actualmente no estoy buscando trabajo, pero aquí están mis contactos. Llámame si te interesa."
+    
+
+  

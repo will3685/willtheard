@@ -1,0 +1,106 @@
+<h2 class="container-profile position-relative skills-title mt-5">
+    <%= t('.skills') %>
+  </h2>
+  <div class="skills-notes container-profile d-flex justify-content-around my-3">
+    <div class="skills-good d-flex align-items-center my-2">
+      <div class="color-good skill-indicate mr-2">
+      </div>
+      <div class="text-good">
+        <%= t('.skill-good') %>
+      </div>
+    </div>
+    <div class="skills-midium d-flex align-items-center my-2">
+      <div class="color-medium skill-indicate mr-2">
+      </div>
+      <div class="text-medium">
+        <%= t('.skill-medium') %>
+      </div>
+    </div>
+    <div class="skills-basic d-flex align-items-center my-2">
+      <div class="color-basic skill-indicate mr-2">
+      </div>
+      <div class="text-basic">
+        <%= t('.skill-basic') %>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-profile pt-5">
+    <i class="fas fa-code icon-skill mb-2"></i>
+
+    <div class="row d-flex justify-content-center" data-aos="fade-down">  
+      <% Skill::SKILLS.each do |skill| %>
+        <% if skill[:category]=="frontend"%>
+          <div class="card__collection clear-fix">
+            <div class="cards  skill-content <%= skill[:level] %> cards--two">
+              <svg class="img-responsive" alt="Cards Image" viewBox="0 0 128 128">
+                <%= skill[:svg_path].html_safe %>
+              </svg>
+              <span class="cards--two__rect <%= skill[:level] %>1"></span>
+              <p>
+                <%= skill[:title] %>
+              </p>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+
+    <i class="fas fa-database icon-skill mb-2 pt-5"></i>
+    <div class="row d-flex justify-content-center" data-aos="fade-down">  
+      <% Skill::SKILLS.each do |skill| %>
+        <% if skill[:category]=="backend"%>
+          <div class="card__collection clear-fix">
+            <div class="cards  skill-content <%= skill[:level] %> cards--two">
+              <svg class="img-responsive" alt="Cards Image" viewBox="0 0 128 128">
+                <%= skill[:svg_path].html_safe %>
+              </svg>
+              <span class="cards--two__rect <%= skill[:level] %>1"></span>
+              <p>
+                <%= skill[:title] %>
+              </p>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+
+    <i class="fas fa-laptop icon-skill mb-2 pt-5"></i>
+    <div class="row d-flex justify-content-center" data-aos="fade-down">  
+      <% Skill::SKILLS.each do |skill| %>
+        <% if skill[:category]=="web-design"%>
+          <div class="card__collection clear-fix">
+            <div class="cards skill-content <%= skill[:level] %> cards--two">
+              <svg class="img-responsive" alt="Cards Image" viewBox="0 0 128 128">
+                <%= skill[:svg_path].html_safe %>
+              </svg>
+              <span class="cards--two__rect <%= skill[:level] %>1"></span>
+              <p>
+                <%= skill[:title] %>
+              </p>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+
+    <i class="fas fa-wrench icon-skill mb-2 pt-5"></i>
+    <div class="row d-flex justify-content-center" data-aos="fade-down">  
+      <% Skill::SKILLS.each do |skill| %>
+        <% if skill[:category]=="tool"%>
+          <div class="card__collection clear-fix">
+            <div class="cards skill-content <%= skill[:level] %> cards--two">
+              <svg class="img-responsive" alt="Cards Image" viewBox="0 0 128 128">
+                <%= skill[:svg_path].html_safe %>
+              </svg>
+              <span class="cards--two__rect <%= skill[:level] %>1"></span>
+              <p>
+                <%= skill[:title] %>
+              </p>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+
+  </div>
